@@ -12,7 +12,7 @@ export class Worker {
   // Output: Worker { name: 'Sandy', position: 'Cashier' }
   
   // 2.2 Declare Manager class that extends Worker
-  class Manager extends Worker {
+export class Manager extends Worker {
     constructor(name, branchId) {
       // Inherit properties from Worker class
       super(name, "Manager"); // "Manager" is the preset position for Manager
