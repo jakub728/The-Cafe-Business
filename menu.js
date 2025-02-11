@@ -12,7 +12,7 @@
 * an instance of `Menu` (e.g. object `food1`) would look like this:
 
 */
-class Menu {
+export class Menu {
     constructor(type, name, price, isWarm){
  if(type !== "drinks" && type !== "food") {
 throw new Error(`Sorry. Type must be either 'Food' or 'Drinks'.`)
