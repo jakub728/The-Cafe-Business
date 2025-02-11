@@ -23,3 +23,6 @@ const food4=  new Menu("food","Pasta",6.5,true);
 const drink2=  new Menu("drink","Beer",3.5,false);
 const drink3=  new Menu("drink","Coffee",6,false);
 const drink4=  new Menu("drink","Tea",7.5,false);
+
+console.log(cafe2.addManager(manager2));
+console.log(cafe2.addEmployee());
